@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/shopping-list.css">
+    <title>Shopping List</title>
+</head>
+<body>
+    <main>
+        <h1>Shopping List</h1>
+
+        <div id="shoppingList">
+            <h2>Items</h2>
+
+            <div id="listItems">
+                <ul id="items">    
+                </ul>
+            </div>
+
+            <div id="alert">
+                <p id="alertMessage"></p>
+            </div>
+
+            <div id="buttons">
+                <button id="addItem">Add Item</button>
+                <button id="clearList" type="submit">Clear List</button>
+            </div>
+
+            <form id="addItemForm">
+                <div id="name">
+                    <label>Name:</label>
+                    <input id="nameInput" type="text">
+                </div>
+                <div id="category">
+                    <label>Category:</label>
+                    <select id="categorySelect">
+                        <option value="Dairy">Dairy</option>
+                        <option value="Bakery">Bakery</option>
+                        <option value="Meat">Meat</option>
+                        <option value="Frozen">Frozen</option>
+                        <option value="Grocery">Grocery</option>
+                    </select>
+                </div>
+                <div id="price">
+                <label>Price: </label>
+                <input id="priceInput" type="text">
+                </div>  
+            </form>
+        
+        </div>
+        
+
+    </main>
+    <script src="/javascript/shopping-list.js"></script>
+</body>
+</html>
